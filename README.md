@@ -43,31 +43,18 @@ This heatmap can provide a visualization for weekly usage patterns to identify h
 
 While the last line chart showed us that the duration of most drips were less than an hour by length this next graph shows the times of the day where each gender group uses the bikes the most. Through this analysis, for females eveb with the small usuage by this group, there is no obvious differnce in the times of day that it us used. There is a higher usuage around commuting times but it is not drastically significant of a differnce. For the males, there is a difference based off the heatmap on the times of high usuage. This can be used to confirm that a majority of males using the bike sharing program use it for their commutes, which is most likely within a half hour time span as suggested by the chart above. 
 
-### NYC CitiBike Trips by User Type, by Day, by Gender
+### NYC CitiBike Trips by User Type/Gender/Day
 
-Lastly, this heatmap reinforces how much of the userbase is dominated by male-identifying, subscribing users. Why this is the case is unclear and warrants additional study.
+![User Trips by Gender by Weekday](https://user-images.githubusercontent.com/102635884/184521281-84170c8f-f0ab-4730-b42d-d45cae0214a2.PNG)
 
-There are one or two additional charts available in the Tableau analysis, but they tell pretty much the same story that has already been displayed above.
+This last heatmap provides a high level view of the weekday usuage by Gender. This furthur exemplifies that the male user group uses the bikesharing program the most. It also highlights the consistent use of the male user group everyday of the week. While the female group still shows the same consistency, it is not to the same degree that the male groups has due to the lower count of this user group. 
 
+### NYC CitiBike Top Starting and Ending Trip Locations
 
-NYC CitiBike Top Trip Starting Locations
+![Top Starting Locations](https://user-images.githubusercontent.com/102635884/184521501-a4ed9bb5-a3ae-4069-91c5-8859d5667ba0.PNG)
+![Top Ending Locations](https://user-images.githubusercontent.com/102635884/184521515-84889dc9-1940-412f-83ee-24d2cf5a1fe8.PNG)
 
-The above map displays the bike stations from which recorded bike trips started. The size of the circles and darkness of the green indicate the relative number of trips started at those locations. It is apparent that the bulk of the bike trips are originating in the bustling commercial heart of Lower Manhattan, known for towering office buildings, densely packed residential skyscrapers, and entertainment venues. Bike usage is lower in the less densely packed surrounding neighborhoods.
-
-NYC CitiBike Total Rides by Time of Day
-
-This chart displays the number of bike rides initiated during each hour of the day, totaled across the entire month of August. We can see peak usage during morning rush hour and end-of-workday commute times. What is also of note is the low-usage hours between 2 AM and 5 AM. These hours would be the best times to conduct bike repairs and redistribution of bikes from full stations to less-full stations.
-
-NYC CitiBike Bike Usage Spread
-
-To see what proportion of the bikes get heavy usage, we can look at this stepped-level heatmap. This tiling shows each individual bike in the fleet, sized, colored, and sorted by its degree of usage during the month. In red we can see a small number of bikes that get heavy usage, which will require more regular repair, or possibly even replacement. In shades of green, we can see all the other bikes that get much lower levels of use, and will probably not need to be repaired as often.
-
-NYC CitiBike Avg. Trip Duration by Birth Year
-
-This charting of average trip duration by birth year shows two things:
-
-the bikeshare userbase covers all age demographics, from teenagers to nonagenarians (and older);
-teenagers and early-twenty-somethings enjoy taking much longer bikerides than older users.
+These map images showcase what would most likely be expected from a large city population. NYC is a large tourist and commuting city, which as expected a large majority of their starting and ending locations are within the main island. There is basically no differnce in the usage locations from start to finish, which means that a majority of these bikes will not travel outside of these areas frequently which will be a easy win when it comes to repairs and avilaiblity of bikes. 
 
 
 Summary
@@ -76,8 +63,9 @@ Subscribers take time
 
 push for female, pull for male
 
-In conclusion, bikeshare services are remarkably popular in busy metropolitan areas, where occupied real estate is densely packed and parking spaces may be scarce. The user base is made up mostly of male subscribers, providing regular income to the program. More outreach should be done to attract female riders, but male users seem a reliable market. And main usage seems focused around morning and evening commute times.
+In conclusion, bikeshare services are remarkably popular in large metropolitan areas. Factors supporting usuage casn be driven by areas where real estate is densely packed, high traffic, and insufficeent parking space. A large porportion of customers are subscribers and of this group a large majorty are also males. One thing to note is if this bike sharing program was to expand to Des Moines, to earn subsribers takes time and a new bike sharing program will need to understand it's areas of oppotunity, such as appealing to a smaller user group like the female group in NYC and encoraging them to become subscribers. While bike usuage is a pull for males, it will be a push strategy for the female demographic. Peak period of these bikes was typically Monday through Friday at commuting times and for the weekends, usuage was consistent for a majority of the day.
 
+This analysis cenetered heavily around times of usage and gender groups. Additional visualiations that could play a role in understanding bike sharing 
 If I were to pursue additional lines of inquiry for analysis and visualization, given the data provided, I would explore:
 
 trip starting and ending locations during morning and evening rush hour time-windows, to display the flow of traffic between neighborhoods at peak hours;

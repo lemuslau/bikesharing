@@ -1,21 +1,54 @@
-# bikesharing
-Bikesharing with NYC CitiBike data
+# Bikesharing with NYC CitiBike 
 
-Overview
-This Tableau story can be seen, in its entirety, at this link.
+## Overview
+The CitiBike Analysis story can be found [here](https://public.tableau.com/views/Module14Challenge_16594058840770/NYCCitibikeAnalysis?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) 
 
-The framework for this project was to analyze bikeshare data from CitiBike in New York City for presentation to investors looking to begin a bikeshare program in Des Moines, Iowa. While Des Moines is a long way away from the hustle and bustle of NYC, this analysis might help answer a few key questions:
+The drive for this project was to analyze bikeshare data from CitiBike in New York City for investors with the data provided. This analysis used New York City as the main frame of data, it is intneded to provide visualization for key factors to identify areas of opporunity for launching a bikehsharing program in Des Moines, Iowa. 
 
-Who uses bikeshare programs?
-What area of a city sees the most bikeshare usage?
-What time of day are bikes used the most and the least?
-How much are the bikes used and by whom?
-Results
-While the demographics of Des Moines may be different from the make up of the citizenry of NYC, a cursory look at the makeup of CitiBike riders may shine light on who bikeshare might appeal to, regardless of locale.
+These were the main questions essential for visualiation for investors:  
+1. Who uses bikeshare programs?
+2. What area of a city sees the most bikeshare usage?
+3. What time of day are bikes used the most and the least?
+4. How much are the bikes used and by whom?
 
-NYC CitiBike Customer Description
+##Results
 
-In the above image we can see that more than 3/4 of the users are Subscribers, who make regular use of the bikes and are a predictable source of income for the program. Bikeshare program users are also predominantly male, at approximately 5/8 to only about 1/4 female. The remaining 1/8 gender is unknown or undeclared.
+###NYC CitiBike Customer Description 
+
+![Customer and Gender](https://user-images.githubusercontent.com/102635884/184520200-1eb6752a-0269-4e06-aeca-4a3700f87ccd.PNG)
+
+Undertanding user demographics is essential in understanding who will be subcribing to a bikisharing prgram. Tweo factors in dempographics that were accessible through the CitiBike day was Gender and User Type. In the pie charts below, investors would be able to identify that roughly 2/3 of the customer group in NYC were Subscriibers, which shows that more people were willing to regularly use the bike sharing program.  For gender, roughly 2/3 of the group were main, showcaseing that currently the bike sharing program has a larger pull from the bikesharing program.
+
+### NYC CitiBike Trip Duration
+
+![Checkout Time for Users](https://user-images.githubusercontent.com/102635884/184520866-388e6a1d-f6cf-40c1-b105-55df1775563b.PNG)
+
+Through this lien graph an investor is able to idenitfy that the number of trips by durations had a larger prorpotion of customers using the bikes for less than an hour in lenth. More bike rides were saround a half hour or less. This means that customers most likely traveling short distances. 
+
+### NYC CitiBike Trip Duration by Gender
+
+![Checkout Times by Gender](https://user-images.githubusercontent.com/102635884/184520960-d89a7b09-3219-4067-9eb5-a60973901b2c.PNG)
+
+Similar to the pie chart showing customer usuage by gender, this line grapgh compares trip duration by gender. This grapgh shows that both genders utilized the CitiBikes for less than an hour and neither of the three groups used it more than the other despite the significant customer gender difference.
+
+### NYC CitiBike Peak Use Hours
+
+![Trips by Weekday per Hour](https://user-images.githubusercontent.com/102635884/184520473-178f5ba4-ec8f-48d7-8c4d-1e075fd842ad.PNG)
+
+This heatmap can provide a visualization for weekly usage patterns to identify hours in a day where there is a higher usage in the program. The heaviest bike usage is around typical commuting times Monday through Friday. These time are most frequent around 6am-9am and then again from 4pm-7pm. During the weekends Saturdays saw consistent high usage between the hour of 9am to 7pm which can combine with the evenings where tourst and locals would use the bikes to avoid the traffic in the streets. Additonally, a low usage point is Wednesday evenings where you do not see high usage like you would the other Weekdays. It would be worth exploring this time to see what drives this abdnoramality.
+
+### NYC Citibike Trips by Gender, Weekday, Gender
+
+![Trip by Gender (Weekday per Hour)](https://user-images.githubusercontent.com/102635884/184521100-ed75b9c0-40c6-49ec-8d64-aa4fbeb67146.PNG)
+
+While the last line chart showed us that the duration of most drips were less than an hour by length this next graph shows the times of the day where each gender group uses the bikes the most. Through this analysis, for females eveb with the small usuage by this group, there is no obvious differnce in the times of day that it us used. There is a higher usuage around commuting times but it is not drastically significant of a differnce. For the males, there is a difference based off the heatmap on the times of high usuage. This can be used to confirm that a majority of males using the bike sharing program use it for their commutes, which is most likely within a half hour time span as suggested by the chart above. 
+
+### NYC CitiBike Trips by User Type, by Day, by Gender
+
+Lastly, this heatmap reinforces how much of the userbase is dominated by male-identifying, subscribing users. Why this is the case is unclear and warrants additional study.
+
+There are one or two additional charts available in the Tableau analysis, but they tell pretty much the same story that has already been displayed above.
+
 
 NYC CitiBike Top Trip Starting Locations
 
@@ -24,10 +57,6 @@ The above map displays the bike stations from which recorded bike trips started.
 NYC CitiBike Total Rides by Time of Day
 
 This chart displays the number of bike rides initiated during each hour of the day, totaled across the entire month of August. We can see peak usage during morning rush hour and end-of-workday commute times. What is also of note is the low-usage hours between 2 AM and 5 AM. These hours would be the best times to conduct bike repairs and redistribution of bikes from full stations to less-full stations.
-
-NYC CitiBike Peak Use Hours
-
-A heatmap also helps show weekly usage patterns. Once again we can see the heavy bike usage during weekday commute times, and weekend usage is spread throughout the middle of the day. An interesting anomaly is the relatively low bike usage during Wednesday's end-of-day commute. It could be useful to explore reasons for this (system outage, Wednesday holidays in August, something less obvious?), but it could just be an arbitrary anomaly. Also, we can still see that low-usage time in the early morning hours, every day of the week.
 
 NYC CitiBike Bike Usage Spread
 
@@ -39,21 +68,14 @@ This charting of average trip duration by birth year shows two things:
 
 the bikeshare userbase covers all age demographics, from teenagers to nonagenarians (and older);
 teenagers and early-twenty-somethings enjoy taking much longer bikerides than older users.
-NYC CitiBike Trip Duration
 
-This graphing of number of trips by duration show that the vast majority of trips taken on CitiBike bikes are under an hour in length. More specifically, most trips are under a half-hour in length, with a swift dropoff in number of rides over an hour in length.
-
-NYC CitiBike Trip Duration by Gender
-
-This breakdown of number of rides by duration, separated by gender, makes it even more apparent how many more rides are taken by male-identifying customers.
-
-NYC CitiBike Trips by User Type, by Day, by Gender
-
-Lastly, this heatmap reinforces how much of the userbase is dominated by male-identifying, subscribing users. Why this is the case is unclear and warrants additional study.
-
-There are one or two additional charts available in the Tableau analysis, but they tell pretty much the same story that has already been displayed above.
 
 Summary
+
+Subscribers take time 
+
+push for female, pull for male
+
 In conclusion, bikeshare services are remarkably popular in busy metropolitan areas, where occupied real estate is densely packed and parking spaces may be scarce. The user base is made up mostly of male subscribers, providing regular income to the program. More outreach should be done to attract female riders, but male users seem a reliable market. And main usage seems focused around morning and evening commute times.
 
 If I were to pursue additional lines of inquiry for analysis and visualization, given the data provided, I would explore:

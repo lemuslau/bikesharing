@@ -57,16 +57,10 @@ This last heatmap provides a high level view of the weekday usuage by Gender. Th
 These map images showcase what would most likely be expected from a large city population. NYC is a large tourist and commuting city, which as expected a large majority of their starting and ending locations are within the main island. There is basically no differnce in the usage locations from start to finish, which means that a majority of these bikes will not travel outside of these areas frequently which will be a easy win when it comes to repairs and avilaiblity of bikes. 
 
 
-Summary
+## Summary
 
-Subscribers take time 
+In conclusion, bikeshare services are remarkably popular in large metropolitan areas. Factors supporting usuage casn be driven by areas where real estate is densely packed, high traffic, and insufficeent parking space. A large proportion of customers are subscribers and of this group a large majorty are also males. One thing to note is if this bike sharing program was to expand to Des Moines, to earn subsribers takes time and a new bike sharing program will need to understand it's areas of oppotunity, such as appealing to a smaller user group like the female group in NYC and encoraging them to become subscribers. While bike usuage is a pull for males, it will be a push strategy for the female demographic. Peak period of these bikes was typically Monday through Friday at commuting times and for the weekends, usuage was consistent for a majority of the day.
 
-push for female, pull for male
+This analysis cenetered heavily around times of usage and gender groups. Additional visualiations that could play a role in understanding bike sharing programs is understanding the areas outside of the main metropolitan area. The reason for this is because there is still signiciant usage outside of the island area. A way to capture this is to use the starting and ending locations with map points to investigate what proportion of users outside these areas do use this program and see if there is opporuntity to provide more bike availability. 
 
-In conclusion, bikeshare services are remarkably popular in large metropolitan areas. Factors supporting usuage casn be driven by areas where real estate is densely packed, high traffic, and insufficeent parking space. A large porportion of customers are subscribers and of this group a large majorty are also males. One thing to note is if this bike sharing program was to expand to Des Moines, to earn subsribers takes time and a new bike sharing program will need to understand it's areas of oppotunity, such as appealing to a smaller user group like the female group in NYC and encoraging them to become subscribers. While bike usuage is a pull for males, it will be a push strategy for the female demographic. Peak period of these bikes was typically Monday through Friday at commuting times and for the weekends, usuage was consistent for a majority of the day.
-
-This analysis cenetered heavily around times of usage and gender groups. Additional visualiations that could play a role in understanding bike sharing 
-If I were to pursue additional lines of inquiry for analysis and visualization, given the data provided, I would explore:
-
-trip starting and ending locations during morning and evening rush hour time-windows, to display the flow of traffic between neighborhoods at peak hours;
-average trip duration, by birth year, by gender, to explore if there was any difference in male or female or un-gendered riders as they age.
+Additonally, another visualation could be to investigate what areas locals and tourist visit the most and how long these trip durations are. While this could require addtional data pull, it can be used with existing data to compare the trip duration and locations for customers compared to subscribers. 
